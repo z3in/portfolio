@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  background: #111;
+  font-family: "Montserrat", serif;
+  color: #fff;
+}
+
+nav {
+  width: 90%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+nav .Nav-Logo {
+  margin-left: -1.5em;
+  position: relative;
+  top: 7px;
+}
+
+nav .Nav-Links {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .Nav-Links a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5em;
+}
+
+nav .Nav-Links a:hover {
+  color: #ffd000;
+}
+
+main {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Left-Frame {
+  margin-top: 0.5em;
+  background: #000000;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px 0px 0px 0px;
+  overflow: hidden;
+  width: 25%;
+}
+
+.Left-Frame .Left-Frame-text h1 {
+  margin-left: 2em;
+  margin-top: -0.5em;
+  font-weight: 700;
+}
+
+.Left-Frame .Left-Frame-text h1 span {
+  color: #bca004;
+}
+
+.Left-Frame .Left-Frame-text h5 {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+.Left-Frame .left-Frame-Me {
+  margin-left: -60em;
+}
+
+.Right-Frame {
+  margin-top: 0.5em;
+  background: #fdfffc;
+  border-radius: 0px 0px 100px 0px;
+  width: 73%;
+}
+
+.Right-Frame .Right-Frame-Buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3em;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.Right-Frame .Right-Frame-Buttons div {
+  margin-right: 2em;
+  width: 30%;
+}
+
+.Right-Frame .Right-Frame-Buttons div button {
+  background: #ffd000;
+  border: none;
+  padding: 1em 3em;
+  width: 100%;
+  font-weight: 700;
+  font-family: "Montserrat", serif;
+  cursor: pointer;
+}
+
+.Contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+.Contacts .Contacts-Details {
+  width: 43%;
+  color: #111;
+}
+
+.Contacts .Contacts-Details .Contacts-Svg {
+  margin-top: -3em;
+}
+
+.Contacts .Contacts-Details .Contacts-Block-Details {
+  background-color: #ffd000;
+  padding: 0.5em 2em;
+  font-size: 0.9rem;
+}
+
+.Contacts .Contacts-Details .Contacts-Block-Details hr {
+  margin: 2em 0;
+}
+
+.Contacts .Contacts-Details .Contacts-Block-Details span {
+  font-size: 0.9em;
+  margin-left: 1em;
+}
+
+.Contacts .Contacts-Details .Contacts-Block-Details .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contacts .Contacts-Details .Contacts-Block-Details .social-media .bubbles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.Contacts .Contacts-Send-Form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 43%;
+  color: #111;
+  background: #fdfffc;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 80px 0px;
+  padding: 2em;
+}
+
+.Contacts .Contacts-Send-Form div {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 3em;
+}
+
+.Contacts .Contacts-Send-Form label {
+  color: #111;
+}
+
+.Contacts .Contacts-Send-Form input {
+  margin-bottom: 0.25em;
+  padding-top: 1em;
+  font-size: 1rem;
+  border: 0;
+  border-bottom: 1px solid #bca004;
+  background: #f8f2c1;
+  outline: none;
+}
+
+.Contacts .Contacts-Send-Form textarea {
+  outline: none;
+  resize: none;
+  height: 6em;
+  background: #f8f2c1;
+  padding-top: 1em;
+  font-size: 1rem;
+  border: 0;
+  border-bottom: 1px solid #bca004;
+}
+
+.Contacts .Contacts-Send-Form button {
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  background: #ffd000;
+  border: none;
+  padding: 1em 3em;
+  width: 100%;
+  font-weight: 700;
+  font-family: "Montserrat", serif;
+  cursor: pointer;
+}
+/*# sourceMappingURL=custom.css.map */
