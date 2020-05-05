@@ -1,17 +1,18 @@
 import React from "react";
 
-import ContactSvg from "./svg/ContactsSvg";
-import FbBubble from "./svg/FbBubble";
-import TwitterBubble from "./svg/TwitterBubble";
+import ContactSvg from "../../svg/ContactsSvg";
+import FbBubble from "../../svg/FbBubble";
+import TwitterBubble from "../../svg/TwitterBubble";
+import s from "./contact.module.scss";
 
 export default function Contact() {
   return (
-    <div className="Contacts">
-      <div className="Contacts-Details">
-        <div className="Contacts-Svg">
+    <div className={s.Contacts}>
+      <div className={s.ContactsDetails}>
+        <div className={s.ContactsSvg}>
           <ContactSvg />
         </div>
-        <div className="Contacts-Block-Details">
+        <div className={s.ContactsBlockDetails}>
           <div>
             <h3>Email</h3>
           </div>
@@ -21,17 +22,17 @@ export default function Contact() {
           </div>
           <div>+639954976003</div>
           <hr color="#111" height="1" />
-          <div className="social-media">
-            <div className="bubbles">
-              <FbBubble /> <span>www.facebook.com/sebaschianrobin</span>
+          <div className={s.socialmedia}>
+            <div className={s.bubbles}>
+              <FbBubble /> <span>facebook.com/sebaschianrobin</span>
             </div>
-            <div className="bubbles">
-              <TwitterBubble /> <span>www.twitter.com/sebaschianrobin</span>
+            <div className={s.bubbles}>
+              <TwitterBubble /> <span>twitter.com/sebaschianrobin</span>
             </div>
           </div>
         </div>
       </div>
-      <div className="Contacts-Send-Form">
+      <div className={s.ContactsSendForm}>
         <div>SEND ME A MESSAGE</div>
         <label>Name</label>
         <input />

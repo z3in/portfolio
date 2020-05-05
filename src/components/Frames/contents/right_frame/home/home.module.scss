@@ -1,0 +1,60 @@
+.Home {
+  padding: 3em;
+  .HomeTextMain {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #111;
+    .HomeFirst {
+      color: #ffdd00;
+    }
+    .HomeSecond {
+      color: #ffbd08;
+    }
+    .HomeThird {
+      color: #9b7200;
+    }
+  }
+
+  .RightFrameButtons {
+    display: flex;
+    justify-content: flex-start;
+
+    div {
+      margin-right: 2em;
+      width: 30%;
+      button {
+        background: #ffd000;
+        border: none;
+        padding: 1em 3em;
+        width: 100%;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home {
+    padding: 1em;
+    .RightFrameButtons {
+      div {
+        margin-right: 0.5em;
+        width: 49%;
+      }
+    }
+  }
+}
+
+//ipad and handheld with larger screen
+@media screen and (min-width: 501px) and (max-width: 1050px) {
+  .Home {
+    padding: 2em;
+    .RightFrameButtons {
+      div {
+        margin-right: 0.5em;
+        width: 50%;
+      }
+    }
+  }
+}

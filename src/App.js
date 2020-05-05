@@ -1,14 +1,16 @@
 import React from "react";
-import NavBar from "./components/NavBar";
-import Body from "./components/Body";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import NavBar from "./components/NavBar/NavBar";
+import Body from "./components/body/Body";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <NavBar />
+      <div className="container">
+        <NavBar />
+      </div>
+
       <Body />
-      <Route path="/"></Route>
     </Router>
   );
 }
